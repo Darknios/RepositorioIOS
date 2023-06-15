@@ -1,0 +1,108 @@
+div ul li {
+    display: inline;
+    color: #c54f01;
+    font-weight: 600;
+    padding: 10px;
+    border-bottom: solid #000000;
+    border-top: solid #000000;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-right: 35px;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    background-image: url(https://http2.mlstatic.com/D_NQ_NP_771169-MLB43361810326_092020-O.webp);
+    background-size: cover;
+    background-position: 0% 25%;
+    background-repeat: no-repeat;
+
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+#jo:hover {
+    opacity: 50%;
+}
+
+#logo {
+    margin-right: 25px;
+}
+
+div ul li:hover {
+    border-top: solid #161412;
+    background-color: #c54f01;
+    color: black;
+    cursor: pointer;
+}
+
+#happy {
+    border: 1px solid black;
+    width: 980px;
+    height: 500px;
+    text-shadow: 1px 3px 5px red,
+        2px 0px 2px gray,
+        2px 2px 2px red,
+        2px 0px 2px red;
+    font-weight: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 320px;
+    box-sizing: border-box;
+    background: url('img/po.gif');
+}
+.sob{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1:hover {
+    text-shadow: 1px 3px 5px rgb(132, 0, 255),
+        2px 0px 2px gray,
+        2px 2px 2px rgb(121, 61, 61),
+        2px 0px 2px rgb(165, 165, 165);
+}
+
+#sim{
+    margin-top: 20px;
+    background-color: rgb(226, 122, 3);
+    border: 3px groove orangered;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#rode {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(44, 42, 39);
+    justify-content: space-evenly;
+    background-image: url(https://acegif.com/wp-content/uploads/gifs/fire-102.gif);
+}
+
+span {
+    text-shadow: 1px 3px 5px rgb(243, 140, 5),
+        2px 0px 2px rgb(211, 43, 43),
+        2px 2px 2px rgb(255, 187, 0),
+        2px 0px 2px rgb(255, 238, 0);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-align: justify;
+}
+
+a{
+    text-decoration: none;
+}
